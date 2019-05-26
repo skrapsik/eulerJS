@@ -1,4 +1,6 @@
-    function fibonachi (chislo) {
+ # условие 
+   ``` JS
+ function fibonachi (chislo) {
     var fib = 0;
     var fib1 = 1 ;
     var fib2 = 2;
@@ -20,3 +22,4 @@
     alert(sum);
     };
     fibonachi (400000) ;
+```
