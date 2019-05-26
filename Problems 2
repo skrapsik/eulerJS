@@ -1,0 +1,22 @@
+    function fibonachi (chislo) {
+    var fib = 0;
+    var fib1 = 1 ;
+    var fib2 = 2;
+    var arrFib = [1, 2,] ;
+    var sum = 0;
+    while (fib < chislo) {
+        fib = fib1 + fib2;
+        if (fib < chislo) {
+        arrFib.push(fib);
+    };
+        fib1 = fib2;
+        fib2 = fib;
+    };
+    for (var i = 0; i <= arrFib.length; i++ ) {
+        if (arrFib[i] % 2 == 0) {
+            sum = sum + arrFib[i];
+        };
+    };
+    alert(sum);
+    };
+    fibonachi (400000) ;
